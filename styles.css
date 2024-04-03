@@ -1,0 +1,176 @@
+/*google font CDN link*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+/* nav */
+.header_wrapper .navbar-brand{
+    color: #ff8882;
+    font-weight: 500;
+    font-size: 24px;
+    transition: .3s color;
+}
+
+.header_wrapper .navbar-toggler:focus{
+    box-shadow: none;
+}
+.header_wrapper .toggler{
+    border: none;
+}
+.header_wrapper .nav-link{
+    color: #000;
+    font-weight: 500;
+    position: relative;
+}
+.header_wrapper .nav-link:hover{
+    color:#ff8882;
+}
+.header_wrapper .nav-link .active{
+color: #ff8882;
+}
+/* home */
+.banner-content div{
+    margin-left: 5rem;
+}
+.rounded-circle{
+   margin-left: 5rem;
+}
+
+.text-one{
+    font-size: 25px;
+    color: #0E2431;
+}
+.text-two{
+    font-size: 75px;
+    color: #0E2431;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.text-three{
+    font-size: 40px;
+    margin: 5px 0;
+    color: #ff8882;
+}
+/* about */
+section{
+    padding-top: 40px;
+}
+.title{
+        margin-bottom: 40px;
+        text-align: center;
+}
+.title span{
+        color: #0E2431;
+        font-size: 30px;
+        font-weight: 600;
+}
+.topic{
+    color: #0E2431;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+.button button{
+    outline: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 25px;
+    font-weight: 400;
+    background: #ff8882;
+    color: #ffffff;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+.button a{
+    text-decoration: none;
+    color: #f0f8ff;
+}
+.button button:hover{
+    border-color: #ff8882;
+    background-color: #ffffff;
+    
+}
+.button a:hover{
+    color: #ff8882;
+}
+/* skills */
+.skills{
+    background:#f0f8ff;
+    margin-top: 2em;
+}
+.skills-content{
+    padding: 40px 0;
+}
+.skills-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.skills-details .text{
+    width: 50%;
+
+}
+.skills-details p{
+    color: #0E2431;
+    text-align: justify;
+}
+.skills-details .boxes{
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+justify-content: space-between;
+}
+.skills-details .box{
+    width: calc(100%/2-20px);
+    margin: 20px 0;
+}
+.skills-details .boxes .topic{
+    font-size: 20px;
+    color: #ff8882;
+}
+/* contact */
+
+  .section-form{
+    
+    margin-top:  40px;
+  }
+  .section-form .container{
+    background-color: #ff8882;
+  }
+  .section-form button{
+    background-color: #f0f8ff;
+    color: #ff8882;
+    border: none;
+  }
+  .section-form button:hover{
+    background-color:#ff8882;
+    color:#f0f8ff;
+  }
+  /* foooter */
+.footer-wrapper  .foot-i{
+    margin: 0.375rem;
+}
+.footer-wrapper .foot-i{
+    line-height: 1.875rem;
+    font-size: 1.5625rem;
+    display: inline-block;
+    color: #ff8882;
+    text-align: center;
+    margin: 0 0.625rem;
+}
+.footer-wrapper .social-icons li a:hover{
+    color: white
+}
+.footer-wrapper .footer-text{
+    font-size: 0.6875rem;
+    line-height: 1.25rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.footer-wrapper .footer-text a{
+    color: #0E2431;
+}
